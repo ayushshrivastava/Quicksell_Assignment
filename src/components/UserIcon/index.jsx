@@ -14,12 +14,12 @@ function UserIcon({ name, available }) {
   const backgroundColor = React.useMemo(() => {
     const colors = [
       "#7e1af0", // Default color
-      "#ff6347", // Tomato
-      "#3cb371", // MediumSeaGreen
-      "#4682b4", // SteelBlue
-      "#ff69b4", // HotPink
+      "#6D435A", // Ralsin black
+      "#F2AA7E", // Sandy brown
+      "#6ADC39", // Dark Green
+      "#344966", // Indigo dye 
       "#ff4500", // OrangeRed
-      "#8a2be2", // BlueViolet
+      "#4BD2D0", // BlueViolet
       "#00ff00", // Green
     ];
     // Use initials to pick a color (you can change this logic based on your needs)
